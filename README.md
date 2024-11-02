@@ -1,36 +1,40 @@
 
-# Project Name
+# Promptly
 
 ![Project Logo](https://linktoyourlogo.com/logo.png)
 
 ## Overview
 
-This project is a web application built with React and several modern libraries to enhance user interaction and readability. Key features include session-based authentication, interactive animations, and markdown rendering.
+This project is a web application built with React and several modern libraries to enhance user interaction and readability. Key features include Token-based authentication, interactive animations, and markdown rendering.
 
 ## Features
 
-- **Session-Based Authentication**: Implemented using [library/tool used, e.g., JWT, sessions].
+- **Token-Based Authentication**: Implemented using [library/tool used, e.g., JWT, sessions].
 - **Dynamic Content Rendering**: Utilizes `react-markdown` to display markdown content directly in the UI.
 - **Smooth Animations**: Enhanced user experience with zoom animations and [React Type Animation](https://www.npmjs.com/package/react-type-animation) for engaging text transitions.
-- **Real-time Updates**: Leveraged [Socket.io/other tool] to update data without page refresh.
   
 ## Demo
 
-Check out the live demo [here](https://your-deployment-link.com).
+Check out the live demo [here](https://promptly-frontend-pi.vercel.app/).
+
+## Demo
+
+Check out the Frontend Code [here](https://github.com/laciecoder/promptly-frontend).
+Check out the Backend Code [here](https://github.com/laciecoder/promptly-backend).
 
 ## Technologies Used
 
-- **Frontend**: React, Tailwind CSS, Material UI
+- **Frontend**: React, Material UI, React-Router-Dom for routing
 - **Markdown Rendering**: `react-markdown` for seamless markdown support
 - **Animations**: `react-type-animation` for text effects
 - **Backend**: Express, MongoDB
-- **Authentication**: Session-based login system
+- **Authentication**: Token-based login system
 
 ## Installation
 
 1. **Clone the repo**:
    ```bash
-   git clone https://github.com/yourusername/yourprojectname.git
+   git clone https://github.com/laciecoder/promptly-frontend.git
    ```
 
 2. **Install dependencies**:
@@ -41,8 +45,14 @@ Check out the live demo [here](https://your-deployment-link.com).
 3. **Configure Environment Variables**:
    Set up your `.env` file with the necessary environment variables:
    ```env
-   DOMAIN=yourdomain.com
-   SESSION_SECRET=yourSecretKey
+    OPEN_AI_SECRET= 
+    OPEN_AI_ORG_ID=
+    MONGODB_URI=
+    JWT_SECRET=
+    JWT_EXPIRES_IN=3d
+    COOKIE_SECRET=
+    HASH_ROUNDS=10
+    DOMAIN=localhost
    ```
 
 4. **Run the application**:
@@ -52,7 +62,7 @@ Check out the live demo [here](https://your-deployment-link.com).
 
 ## Usage
 
-- **Login**: Start a session-based login.
+- **Login**: Start a Token-based login.
 - **View Markdown**: Write and view markdown in real-time.
 - **Animations**: Notice the smooth zoom-in/zoom-out effects and typing animations for text content.
 
