@@ -1,7 +1,7 @@
 
 # Promptly
 
-![Project Logo](https://linktoyourlogo.com/logo.png)
+![Project Logo](https://img.logoipsum.com/277.svg)
 
 ## Overview
 
@@ -65,6 +65,31 @@ Check out the Backend Code [here](https://github.com/laciecoder/promptly-backend
 - **Login**: Start a Token-based login.
 - **View Markdown**: Write and view markdown in real-time.
 - **Animations**: Notice the smooth zoom-in/zoom-out effects and typing animations for text content.
+
+## Update
+- Due to some issues with vercel, token retrieval is not working, so for time being, I have attached some screen shots of project
+
+## Screenshots
+ Home Page
+ ![](https://utfs.io/f/QyLqvzYvXKIN2ByorguXtmcdKpA9Ruxolk6gaTMjSeLZf1NQ)
+
+ Login Page
+ ![](https://utfs.io/f/QyLqvzYvXKIN0taUh3Iag2p4lO5JLi936RfcSzUvKWGAynX0)
+
+ Chat Page
+ ![](https://utfs.io/f/QyLqvzYvXKINyddHtzQYztFu6HwnJ1QjqCoMIT7ipcOdegVA)
+
+ ![](https://utfs.io/f/QyLqvzYvXKINhZzVrEe2XOHUzc6Dgi3hN8QnFesr9qV7p5AM)
+
+ Clearing Chat
+ ![](https://utfs.io/f/QyLqvzYvXKIN9P3aKMmEj4KwoMzvQVXmCJ3ZyYRPgkTAx5qs)
+
+ ![](https://utfs.io/f/QyLqvzYvXKINupPRMErHbA4swKduYFvxN3tQ9lnSWTOhiqz2)
+
+ Sample Prompt
+ ![](https://utfs.io/f/QyLqvzYvXKINqxhEsZJwAyp5PCZRvfoIbUX08unOQ2kg39ea)
+
+ ![](https://utfs.io/f/QyLqvzYvXKINs2gSzTnudBV0KGzHExmkvfUJc7Qa4oLXyNRW)
 
 ## Contributing
 
